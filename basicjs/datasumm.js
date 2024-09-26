@@ -32,3 +32,27 @@ console.log(typeof myFunction);
  // arrays,objects,functions
 // the datatype for the non primitive is function
 //return of function is objectFunction
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive) , Heap Memory(non-primitive)
+//when anything goes under heap memory then we get refrence
+// and during stack memory we get a copy of the original value
+
+let myYoutubename ="anish.com"
+let anotherName = myYoutubename
+anothername ="walia.com"
+console.log(myYoutubename);
+console.log(anothername);
+//basics of js
+let userOne={
+    email: "anish@gmail.com",
+    upi: "user@okaxis",
+}
+
+let userTwo = userOne
+userTwo.email = "anish@outlook.com"
+console.log(userOne.email);
+console.log(userTwo.email);
