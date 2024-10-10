@@ -11,11 +11,12 @@
 // let myTimeStamp =Date.now()
 // console.log(myTimeStamp);
 // console.log(myCreatedDate.getTime());
-console.log(Date.now());
+// console.log(Date.now());
 let newDate =new Date()
 console.log(newDate.getMonth()+1);
-console.log(newDate.getDay());``
-// ${newDate.getDate()}
+console.log(newDate.getDay());
+// `${newDate.getDate()}`
 newDate.toLocaleString('default',{
-    weekday: "long"
+    weekday: "long",
+    
 })
